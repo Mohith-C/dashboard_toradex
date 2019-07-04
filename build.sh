@@ -17,7 +17,7 @@ Usage()
 
 cd ./src/rootfs/buildroot-2019.02.3
 echo "**************configuring builldroot ***********************"
-make toradex_apalis_imx6_defconfig_tarform
+make toradex_apalis_imx6_tarform_defconfig
 
 echo "**************Building builldroot ***********************"
 make
