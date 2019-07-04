@@ -16,6 +16,8 @@ Usage()
 }
 
 cd ./src/rootfs/buildroot-2019.02.3
+echo "**************cleaning buildroot  ***********************"
+#make clean
 echo "**************configuring builldroot ***********************"
 make toradex_apalis_imx6_tarform_defconfig
 
@@ -23,6 +25,8 @@ echo "**************Building builldroot ***********************"
 make
 
 cd ../../app/tarform
+echo "**************cleaning app  ***********************"
+make clean
 echo "**************Building App ***********************"
 ../../rootfs/buildroot-2019.02.2/output/host/bin/qmake
 
