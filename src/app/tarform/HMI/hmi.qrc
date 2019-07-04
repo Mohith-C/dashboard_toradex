@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="FadedDotSmall_Dark">images/fadedDot_small.png</file>
+        <file alias="FadedDotLarge_Dark">images/fadedDotLarge.png</file>
+        <file alias="HighBeam_Dark">images/high_beam.png</file>
+        <file alias="LeftTurn_Dark">images/leftTurn.png</file>
+        <file alias="NavArrow_Dark">images/navArrow.png</file>
+        <file alias="PowerRing">images/PowerRing.png</file>
+        <file alias="RightTurn_Dark">images/rightTurn.png</file>
+        <file alias="SolidDotLarge_Dark">images/solidDot_large.png</file>
+        <file alias="SolidDotSmall_Dark">images/solidDot_Small.png</file>
+        <file alias="Temperature_Dark">images/temperature.png</file>
+        <file alias="OuterRing">images/OuterRing.png</file>
+        <file alias="Temperature_Light">images/temperature_Light.png</file>
+        <file alias="SolidDotSmall_Light">images/solid_dot_small_Light.png</file>
+        <file alias="SolidDotLarge_Light">images/solid_dot_large_Light.png</file>
+        <file alias="RightTurn_Light">images/right_turn_Light.png</file>
+        <file alias="NavArrow_Light">images/nav_arrow_Light.png</file>
+        <file alias="LeftTurn_Light">images/left_turn_Light.png</file>
+        <file alias="HighBeam_Light">images/high_beam_Light.png</file>
+        <file alias="FadedDotSmall_Light">images/faded_dot_small_Light.png</file>
+        <file alias="FadedDotLarge_Light">images/faded_dot_large_Light.png</file>
+        <file alias="SolidDotSmallRed_Dark">images/solidDot_Small_Red.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file alias="XLtCn">fonts/ITCAvantGardeStd-XLtCn.otf</file>
+        <file alias="DemiCn">fonts/ITCAvantGardeStd-DemiCn.otf</file>
+        <file alias="MdCn">fonts/ITCAvantGardeStd-MdCn.otf</file>
+    </qresource>
+    <qresource prefix="/qml">
+        <file>qml/BatteryStatistics.qml</file>
+        <file>qml/HomeScreen.qml</file>
+        <file>qml/RideOptions.qml</file>
+        <file>qml/SoundOptions.qml</file>
+        <file>qml/RegenOptions.qml</file>
+        <file>qml/DisplayOptions.qml</file>
+        <file>qml/BluetoothOptions.qml</file>
+        <file>qml/ChargingScreen.qml</file>
+        <file>qml/Constants.js</file>
+        <file>qml/main.qml</file>
+        <file>qml/SettingsScreen.qml</file>
+        <file>qml/UnitsOptions.qml</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
